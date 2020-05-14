@@ -1,0 +1,7 @@
+edit.html.erb
+<h1>articles#edit</h1>
+<%= form_for(@article) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.submit %>
+<% end %>

@@ -1,0 +1,9 @@
+new.html.erb
+
+form for new article here
+
+<%= form_for(@article) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.submit %>
+<% end %>
